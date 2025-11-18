@@ -4,9 +4,9 @@ import requests
 app = Flask(__name__)
 app.secret_key = "tu_clave"
 
-# USDA endpoint base
+
 USDA_SEARCH_URL = "https://api.nal.usda.gov/fdc/v1/foods/search"
-API_KEY = "g80dt0CNwVrCmA3qJOH8aEqbEIwMQKuPps2sHLGW"
+API_KEY = "LgHJdzvsfDQ0jcffIyAVRLu3hbTg2tpUG7AJ4d3M"
 
 @app.route('/')
 def index():
